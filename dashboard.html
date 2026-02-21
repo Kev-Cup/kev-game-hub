@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KGH Dashboard</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="container">
+    <h1 id="welcomeText"></h1>
+
+    <p>Level: <span id="level"></span></p>
+    <p>XP: <span id="xp"></span></p>
+
+    <h2> Games </h2>
+
+<div class="button-row">
+    <button onclick="pong()">Pong</button>
+</div>
+<div class="button-row">
+    <button onclick="snake()" id="lockedGame">Snake</button>
+</div>
+<div class="button-row">
+    <button onclick="flappyBird()" id="2lockedGame">Flappy Bird</button>
+</div>
+<div class="button-row">
+    <button onclick="space()" id="3lockedGame">Space Invaders</button>
+</div>
+    <br><br>
+    <button onclick="logout()">Logout</button>
+<div class="button-row">
+    <br><br>
+    <button onclick="kool()">Check Out 3 Creepers Gaming!</button>
+</div>
+</div>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>
